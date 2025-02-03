@@ -1,6 +1,5 @@
 package com.jazzkuh.modulemanager.spigot;
 
-import com.jazzkuh.commandlib.spigot.AnnotationCommand;
 import com.jazzkuh.modulemanager.common.tasks.ISteppingTask;
 import com.jazzkuh.modulemanager.spigot.handlers.commands.CommandComponentHandler;
 import com.jazzkuh.modulemanager.spigot.handlers.listeners.ListenerComponentHandler;
@@ -25,9 +24,5 @@ public final class SpigotModuleManager<P extends JavaPlugin> extends ModuleManag
         getComponentRegistry().registerComponentHandler(Listener.class, new ListenerComponentHandler());
         getComponentRegistry().registerComponentHandler(Runnable.class, new TaskComponentHandler());
         getComponentRegistry().registerComponentHandler(ISteppingTask.class, new SteppingTaskComponentHandler());
-
-        try {
-            getComponentRegistry().registerComponentHandler(AnnotationCommand.class, new CommandComponentHandler());
-        } catch (Exception ignored) {}
     }
 }

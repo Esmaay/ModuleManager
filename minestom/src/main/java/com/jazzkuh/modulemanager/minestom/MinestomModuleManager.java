@@ -1,6 +1,5 @@
 package com.jazzkuh.modulemanager.minestom;
 
-import com.jazzkuh.commandlib.minestom.AnnotationCommand;
 import com.jazzkuh.modulemanager.common.ModuleManager;
 import com.jazzkuh.modulemanager.common.tasks.ISteppingTask;
 import com.jazzkuh.modulemanager.minestom.handlers.commands.CommandComponentHandler;
@@ -29,9 +28,5 @@ public final class MinestomModuleManager<S extends IMinestomPlatform> extends Mo
         getComponentRegistry().registerComponentHandler(PacketListener.class, new PacketListenerComponentHandler());
         getComponentRegistry().registerComponentHandler(Runnable.class, new TaskComponentHandler());
         getComponentRegistry().registerComponentHandler(ISteppingTask.class, new SteppingTaskComponentHandler());
-
-        try {
-            getComponentRegistry().registerComponentHandler(AnnotationCommand.class, new CommandComponentHandler());
-        } catch (Exception ignored) {}
     }
 }
