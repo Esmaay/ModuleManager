@@ -1,7 +1,6 @@
 package com.jazzkuh.modulemanager.velocity;
 
 import com.jazzkuh.modulemanager.common.ModuleManager;
-import com.jazzkuh.modulemanager.velocity.handlers.commands.CommandComponentHandler;
 import com.jazzkuh.modulemanager.velocity.handlers.listeners.AbstractListener;
 import com.jazzkuh.modulemanager.velocity.handlers.listeners.ListenerComponentHandler;
 import com.jazzkuh.modulemanager.velocity.handlers.tasks.TaskComponentHandler;

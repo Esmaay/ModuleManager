@@ -2,7 +2,6 @@ package com.jazzkuh.modulemanager.minestom;
 
 import com.jazzkuh.modulemanager.common.ModuleManager;
 import com.jazzkuh.modulemanager.common.tasks.ISteppingTask;
-import com.jazzkuh.modulemanager.minestom.handlers.commands.CommandComponentHandler;
 import com.jazzkuh.modulemanager.minestom.handlers.listeners.Listener;
 import com.jazzkuh.modulemanager.minestom.handlers.listeners.ListenerComponentHandler;
 import com.jazzkuh.modulemanager.minestom.handlers.listeners.MinestomListenerComponentHandler;

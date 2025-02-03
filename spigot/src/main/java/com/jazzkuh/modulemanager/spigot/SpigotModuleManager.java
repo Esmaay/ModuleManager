@@ -1,7 +1,6 @@
 package com.jazzkuh.modulemanager.spigot;
 
 import com.jazzkuh.modulemanager.common.tasks.ISteppingTask;
-import com.jazzkuh.modulemanager.spigot.handlers.commands.CommandComponentHandler;
 import com.jazzkuh.modulemanager.spigot.handlers.listeners.ListenerComponentHandler;
 import com.jazzkuh.modulemanager.spigot.handlers.tasks.SteppingTaskComponentHandler;
 import com.jazzkuh.modulemanager.spigot.handlers.tasks.TaskComponentHandler;

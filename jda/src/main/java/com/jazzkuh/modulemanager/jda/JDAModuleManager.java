@@ -1,7 +1,6 @@
 package com.jazzkuh.modulemanager.jda;
 
 import com.jazzkuh.modulemanager.common.ModuleManager;
-import com.jazzkuh.modulemanager.jda.handlers.commands.CommandComponentHandler;
 import com.jazzkuh.modulemanager.jda.handlers.listeners.ListenerComponentHandler;
 import com.jazzkuh.modulemanager.jda.handlers.tasks.TaskComponentHandler;
 import lombok.Getter;
